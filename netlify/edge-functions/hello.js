@@ -1,8 +1,3 @@
-export default async (request, context) => {
-  return new Response("Hello World from the Edge!", {
-    status: 200,
-    headers: {
-      "content-type": "text/plain",
-    },
-  });
-};
+export default () => new Response("Hello world");
+
+export const config = { path: "/test" };
