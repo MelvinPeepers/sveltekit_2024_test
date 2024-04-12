@@ -1,3 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
 [[edge_functions]]
-  path="/hello"
-  function="hello"
+  path = "/hello"
+  function = "hello"
